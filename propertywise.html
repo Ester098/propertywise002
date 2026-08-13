@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PropertyWise(T) Limited — Registered Valuers &amp; Real Estate Advisors, Tanzania</title>
+<meta name="description" content="PropertyWise(T) Limited is a Dar es Salaam-based valuation consulting and real estate advisory firm delivering independent, defensible property valuations for banks, corporates, government and individuals across Tanzania.">
+<meta name="keywords" content="property valuation Tanzania, real estate advisory Dar es Salaam, registered valuers Tanzania, mortgage valuation, land compensation valuation">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="PropertyWise(T) Limited — Registered Valuers &amp; Real Estate Advisors">
+<meta property="og:description" content="Independent, defensible property valuations and real estate advisory for banks, corporates and individuals across Tanzania.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80">
+<meta property="og:locale" content="en_TZ">
+<meta property="og:site_name" content="PropertyWise(T) Limited">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PropertyWise(T) Limited — Registered Valuers &amp; Real Estate Advisors">
+<meta name="twitter:description" content="Independent, defensible property valuations and real estate advisory across Tanzania.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Public+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "PropertyWise(T) Limited",
+  "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+  "description": "Valuation consulting and real estate advisory firm offering market, mortgage, insurance, rating, taxation and compensation valuations across Tanzania.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ground Floor, RUBADA Building, Ubungo",
+    "addressLocality": "Dar es Salaam",
+    "addressCountry": "TZ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.7998,
+    "longitude": 39.2026
+  },
+  "telephone": "+255787300003",
+  "faxNumber": "+255222460824",
+  "areaServed": "Tanzania",
+  "priceRange": "$$",
+  "url": "https://propertywise.co.tz"
+}
+</script>
+
+<style>
+  :root{
+    --ink:#14231c;
+    --paper:#efece1;
+    --paper-2:#e4dfcf;
+    --brass:#a9803e;
+    --brass-light:#c9a866;
+    --forest:#24463a;
+    --white:#faf9f4;
+    --line: rgba(20,35,28,0.14);
+    --ease: cubic-bezier(.22,1,.36,1);
+    --ff-display: 'Fraunces', serif;
+    --ff-body: 'Public Sans', sans-serif;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:auto; }
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--ff-body);
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; text-decoration:none; }
+  ul{ margin:0; padding:0; list-style:none; }
+  h1,h2,h3,h4{ font-family:var(--ff-display); margin:0; font-weight:500; letter-spacing:-0.01em; }
+  p{ margin:0; }
+  button{ font-family:inherit; cursor:pointer; }
+  input,textarea,select{ font-family:inherit; }
+
+  :focus-visible{ outline:2px solid var(--brass); outline-offset:3px; }
+
+  .wrap{ max-width:1240px; margin:0 auto; padding:0 32px; }
+  @media(max-width:640px){ .wrap{ padding:0 22px; } }
+
+  .eyebrow{
+    font-family:var(--ff-body);
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--brass);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .eyebrow::before{
+    content:'';
+    width:26px; height:1px;
+    background:var(--brass);
+    display:inline-block;
+  }
+
+  /* ============ PRELOADER ============ */
+  #preloader{
+    position:fixed; inset:0; z-index:9999;
+    background:var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    flex-direction:column;
+  }
+  #preloader .seal{
+    width:84px; height:84px;
+    border:1.5px solid var(--brass-light);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--ff-display);
+    color:var(--brass-light);
+    font-size:26px;
+    opacity:0;
+  }
+  #preloader .bar-track{
+    width:200px; height:1px; background:rgba(250,249,244,0.15);
+    margin-top:28px; position:relative; overflow:hidden;
+  }
+  #preloader .bar-fill{
+    position:absolute; left:0; top:0; height:100%; width:0%;
+    background:var(--brass-light);
+  }
+  #preloader .plabel{
+    margin-top:16px; font-size:11px; letter-spacing:0.22em; text-transform:uppercase;
+    color:rgba(250,249,244,0.5); font-weight:600;
+  }
+
+  /* ============ NAV ============ */
+  header#site-nav{
+    position:fixed; top:0; left:0; width:100%; z-index:500;
+    padding:26px 0;
+    transition:padding .45s var(--ease), background .45s var(--ease), border-color .45s var(--ease);
+    border-bottom:1px solid transparent;
+  }
+  header#site-nav.scrolled{
+    padding:14px 0;
+    background:rgba(239,236,225,0.88);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
+  .logo{ display:flex; align-items:center; gap:10px; }
+  .logo .mark{
+    width:34px; height:34px; border:1.5px solid var(--ink); border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--ff-display); font-size:16px; flex-shrink:0;
+  }
+  .logo .word{ font-family:var(--ff-display); font-size:17px; letter-spacing:0.01em; line-height:1.05; }
+  .logo .word small{ display:block; font-family:var(--ff-body); font-size:9.5px; letter-spacing:0.16em; color:var(--forest); font-weight:700; margin-top:2px; }
+
+  nav.primary-links{ display:flex; align-items:center; gap:34px; }
+  nav.primary-links a{
+    font-size:13.5px; font-weight:600; letter-spacing:0.02em;
+    position:relative; padding:4px 0;
+  }
+  nav.primary-links a::after{
+    content:''; position:absolute; left:0; bottom:0; height:1px; width:0;
+    background:var(--brass); transition:width .35s var(--ease);
+  }
+  nav.primary-links a:hover::after{ width:100%; }
+
+  .nav-cta-group{ display:flex; align-items:center; gap:16px; }
+  .nav-call{ font-size:13px; font-weight:700; display:flex; align-items:center; gap:8px; }
+  .nav-call svg{ width:15px; height:15px; }
+
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:13px 26px; font-size:13px; font-weight:700; letter-spacing:0.03em;
+    border-radius:2px; border:1px solid transparent; white-space:nowrap;
+    transition:transform .5s var(--ease), background .4s var(--ease), color .4s var(--ease), border-color .4s var(--ease), box-shadow .4s var(--ease);
+  }
+  .btn-brass{ background:var(--brass); color:var(--white); }
+  .btn-brass:hover{ background:var(--forest); transform:translateY(-2px); box-shadow:0 10px 24px -8px rgba(36,70,58,0.5); }
+  .btn-outline{ background:transparent; color:var(--ink); border-color:var(--ink); }
+  .btn-outline:hover{ background:var(--ink); color:var(--paper); transform:translateY(-2px); }
+  .btn-ghost-light{ background:transparent; color:var(--white); border-color:rgba(250,249,244,0.5); }
+  .btn-ghost-light:hover{ background:var(--white); color:var(--ink); transform:translateY(-2px); }
+
+  .hamburger{
+    display:none; flex-direction:column; gap:5px; width:30px; background:none; border:none; padding:6px;
+  }
+  .hamburger span{ height:1.5px; width:100%; background:var(--ink); transition:transform .4s var(--ease), opacity .3s var(--ease); }
+  .hamburger.open span:nth-child(1){ transform:translateY(6.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2){ opacity:0; }
+  .hamburger.open span:nth-child(3){ transform:translateY(-6.5px) rotate(-45deg); }
+
+  #mobile-menu{
+    position:fixed; inset:0; background:var(--ink); z-index:490;
+    display:flex; flex-direction:column; justify-content:center; padding:0 40px;
+    transform:translateY(-100%); transition:transform .6s var(--ease);
+  }
+  #mobile-menu.open{ transform:translateY(0); }
+  #mobile-menu a{
+    font-family:var(--ff-display); font-size:32px; color:var(--white);
+    padding:14px 0; border-bottom:1px solid rgba(250,249,244,0.12);
+  }
+  #mobile-menu .mm-foot{ margin-top:30px; color:rgba(250,249,244,0.6); font-size:13px; }
+
+  /* ============ HERO ============ */
+  .hero{
+    position:relative; min-height:100vh; display:flex; align-items:flex-end;
+    overflow:hidden; background:var(--ink);
+  }
+  .hero-media{ position:absolute; inset:-10% 0 0 0; z-index:1; }
+  .hero-media img{ width:100%; height:110%; object-fit:cover; }
+  .hero-media::after{
+    content:''; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(20,35,28,0.55) 0%, rgba(20,35,28,0.35) 40%, rgba(20,35,28,0.92) 100%);
+  }
+  .hero-content{ position:relative; z-index:2; width:100%; padding-bottom:64px; }
+  .hero-content .eyebrow{ color:var(--brass-light); margin-bottom:22px; }
+  .hero-content .eyebrow::before{ background:var(--brass-light); }
+  .hero-title{
+    color:var(--white); font-size:clamp(38px,6.6vw,84px); line-height:0.98; max-width:15ch;
+  }
+  .hero-title .line{ display:block; overflow:hidden; }
+  .hero-title .line span{ display:inline-block; transform:translateY(110%); }
+  .hero-sub{
+    color:rgba(250,249,244,0.82); font-size:17px; line-height:1.65; max-width:46ch; margin-top:26px;
+  }
+  .hero-actions{ display:flex; gap:16px; margin-top:38px; flex-wrap:wrap; }
+  .hero-stats{
+    display:flex; gap:0; margin-top:70px; border-top:1px solid rgba(250,249,244,0.2); padding-top:26px; flex-wrap:wrap;
+  }
+  .hero-stat{ padding-right:44px; margin-right:44px; border-right:1px solid rgba(250,249,244,0.16); }
+  .hero-stat:last-child{ border-right:none; margin-right:0; padding-right:0; }
+  .hero-stat .num{ font-family:var(--ff-display); font-size:clamp(24px,3vw,38px); color:var(--white); }
+  .hero-stat .num .plus{ color:var(--brass-light); }
+  .hero-stat .lbl{ font-size:11.5px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(250,249,244,0.6); margin-top:6px; font-weight:600; }
+  @media(max-width:760px){ .hero-stat{ padding-right:22px; margin-right:22px; } }
+  @media(max-width:560px){ .hero-stats{ gap:20px 0; } .hero-stat{ width:44%; border-right:none; padding-right:0; margin-right:0; } }
+
+  .scroll-cue{
+    position:absolute; right:32px; bottom:36px; z-index:2; display:flex; flex-direction:column; align-items:center; gap:10px;
+  }
+  .scroll-cue .track{ width:1px; height:56px; background:rgba(250,249,244,0.25); position:relative; overflow:hidden; }
+  .scroll-cue .drip{ position:absolute; top:-40%; left:0; width:100%; height:40%; background:var(--brass-light); animation:drip 2.2s infinite ease-in-out; }
+  @keyframes drip{ 0%{ top:-40%; } 60%{ top:100%; } 100%{ top:100%; } }
+  .scroll-cue span{ font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(250,249,244,0.55); writing-mode:vertical-rl; font-weight:600; }
+  @media(max-width:760px){ .scroll-cue{ display:none; } }
+
+  /* ============ SECTION GENERIC ============ */
+  section{ position:relative; }
+  .section-pad{ padding:120px 0; }
+  @media(max-width:760px){ .section-pad{ padding:80px 0; } }
+  .section-head{ max-width:640px; margin-bottom:64px; }
+  .section-head h2{ font-size:clamp(30px,4.4vw,50px); margin-top:18px; line-height:1.05; }
+  .section-head p{ margin-top:20px; font-size:16px; line-height:1.7; color:rgba(20,35,28,0.72); }
+  .reveal{ opacity:0; transform:translateY(34px); }
+
+  /* trust strip */
+  .trust-strip{ background:var(--forest); padding:26px 0; }
+  .trust-inner{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px 30px; }
+  .trust-item{ color:rgba(250,249,244,0.82); font-size:12.5px; letter-spacing:0.06em; text-transform:uppercase; font-weight:600; display:flex; align-items:center; gap:10px; }
+  .trust-item svg{ width:16px; height:16px; color:var(--brass-light); flex-shrink:0; }
+
+  /* services */
+  .services-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media(max-width:900px){ .services-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media(max-width:560px){ .services-grid{ grid-template-columns:1fr; } }
+  .service-card{
+    background:var(--paper); padding:40px 34px; display:flex; flex-direction:column; gap:20px;
+    transition:background .4s var(--ease);
+  }
+  .service-card:hover{ background:var(--white); }
+  .service-card .sic{ width:44px; height:44px; color:var(--forest); }
+  .service-card .snum{ font-size:12px; color:var(--brass); font-weight:700; letter-spacing:0.08em; }
+  .service-card h3{ font-size:21px; font-weight:500; margin-top:2px; }
+  .service-card p{ font-size:14.5px; line-height:1.65; color:rgba(20,35,28,0.68); }
+
+  /* process */
+  .process-wrap{ background:var(--ink); color:var(--white); }
+  .process-wrap .section-head p{ color:rgba(250,249,244,0.68); }
+  .process-wrap .eyebrow{ color:var(--brass-light); }
+  .process-wrap .eyebrow::before{ background:var(--brass-light); }
+  .process-list{ border-top:1px solid rgba(250,249,244,0.15); }
+  .process-row{
+    display:grid; grid-template-columns:90px 1fr 1.4fr; gap:30px; align-items:center;
+    padding:34px 0; border-bottom:1px solid rgba(250,249,244,0.15);
+  }
+  @media(max-width:760px){ .process-row{ grid-template-columns:56px 1fr; } .process-row .prow-desc{ grid-column:2/3; } }
+  .process-row .pnum{ font-family:var(--ff-display); font-size:34px; color:var(--brass-light); }
+  .process-row h4{ font-size:20px; font-weight:500; color:var(--white); }
+  .process-row .prow-desc{ font-size:14.5px; line-height:1.65; color:rgba(250,249,244,0.62); }
+
+  /* portfolio / parallax */
+  .portfolio-section{ background:var(--paper-2); }
+  .portfolio-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+  @media(max-width:900px){ .portfolio-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media(max-width:560px){ .portfolio-grid{ grid-template-columns:1fr; } }
+  .pf-card{ position:relative; overflow:hidden; border-radius:2px; aspect-ratio:3/4; }
+  .pf-card .pf-media{ position:absolute; inset:-10% 0; width:100%; height:120%; }
+  .pf-card img{ width:100%; height:100%; object-fit:cover; }
+  .pf-card::after{ content:''; position:absolute; inset:0; background:linear-gradient(180deg, transparent 40%, rgba(20,35,28,0.88) 100%); }
+  .pf-label{ position:absolute; left:20px; right:20px; bottom:20px; z-index:2; color:var(--white); }
+  .pf-label .pf-eyebrow{ font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--brass-light); font-weight:700; }
+  .pf-label h4{ font-size:19px; margin-top:6px; }
+
+  /* impact / parallax stats */
+  .impact{
+    background:var(--forest); color:var(--white); position:relative; overflow:hidden;
+  }
+  .impact-bg{ position:absolute; inset:-15% 0; z-index:0; opacity:0.16; }
+  .impact-bg img{ width:100%; height:130%; object-fit:cover; }
+  .impact .wrap{ position:relative; z-index:1; }
+  .impact-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:40px; margin-top:60px; }
+  @media(max-width:760px){ .impact-grid{ grid-template-columns:repeat(2,1fr); gap:40px 24px; } }
+  .impact-stat .num{ font-family:var(--ff-display); font-size:clamp(38px,5vw,58px); }
+  .impact-stat .lbl{ font-size:13px; letter-spacing:0.04em; color:rgba(250,249,244,0.72); margin-top:10px; line-height:1.5; }
+  .impact .section-head h2{ color:var(--white); }
+  .impact .section-head p{ color:rgba(250,249,244,0.75); }
+  .impact .eyebrow{ color:var(--brass-light); }
+  .impact .eyebrow::before{ background:var(--brass-light); }
+
+  /* testimonials */
+  .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media(max-width:900px){ .testi-grid{ grid-template-columns:1fr; } }
+  .testi-card{ background:var(--white); padding:40px 34px; display:flex; flex-direction:column; gap:22px; }
+  .testi-card .quote-mark{ font-family:var(--ff-display); font-size:44px; color:var(--brass); line-height:1; }
+  .testi-card p.quote{ font-size:15.5px; line-height:1.75; color:var(--ink); }
+  .testi-foot{ display:flex; flex-direction:column; gap:2px; padding-top:14px; border-top:1px solid var(--line); }
+  .testi-foot .tname{ font-weight:700; font-size:14px; }
+  .testi-foot .trole{ font-size:12.5px; color:rgba(20,35,28,0.6); }
+
+  /* faq */
+  .faq-list{ border-top:1px solid var(--line); max-width:840px; }
+  .faq-item{ border-bottom:1px solid var(--line); }
+  .faq-q{
+    width:100%; background:none; border:none; text-align:left; padding:28px 0;
+    display:flex; align-items:center; justify-content:space-between; gap:20px;
+  }
+  .faq-q h4{ font-size:18px; font-weight:500; }
+  .faq-q .plus{ width:20px; height:20px; position:relative; flex-shrink:0; }
+  .faq-q .plus::before, .faq-q .plus::after{ content:''; position:absolute; background:var(--ink); top:50%; left:50%; transform:translate(-50%,-50%); }
+  .faq-q .plus::before{ width:14px; height:1.4px; }
+  .faq-q .plus::after{ width:1.4px; height:14px; transition:transform .35s var(--ease); }
+  .faq-item.open .faq-q .plus::after{ transform:translate(-50%,-50%) rotate(90deg); }
+  .faq-a{ max-height:0; overflow:hidden; transition:max-height .5s var(--ease); }
+  .faq-a-inner{ padding-bottom:28px; font-size:15px; line-height:1.75; color:rgba(20,35,28,0.7); max-width:70ch; }
+
+  /* contact */
+  .contact-section{ background:var(--ink); color:var(--white); }
+  .contact-section .eyebrow{ color:var(--brass-light); }
+  .contact-section .eyebrow::before{ background:var(--brass-light); }
+  .contact-section .section-head h2{ color:var(--white); }
+  .contact-section .section-head p{ color:rgba(250,249,244,0.68); }
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:70px; }
+  @media(max-width:900px){ .contact-grid{ grid-template-columns:1fr; gap:50px; } }
+
+  .field{ margin-bottom:20px; }
+  .field label{ display:block; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; color:rgba(250,249,244,0.6); margin-bottom:9px; }
+  .field input, .field select, .field textarea{
+    width:100%; background:transparent; border:none; border-bottom:1px solid rgba(250,249,244,0.3);
+    color:var(--white); font-size:15px; padding:10px 2px; transition:border-color .3s var(--ease);
+  }
+  .field input::placeholder, .field textarea::placeholder{ color:rgba(250,249,244,0.32); }
+  .field input:focus, .field select:focus, .field textarea:focus{ border-color:var(--brass-light); outline:none; }
+  .field textarea{ resize:vertical; min-height:90px; }
+  .field select option{ color:var(--ink); }
+  .field-error{ font-size:12px; color:#e08a6a; margin-top:6px; display:none; }
+  .field.invalid input, .field.invalid textarea, .field.invalid select{ border-color:#e08a6a; }
+  .field.invalid .field-error{ display:block; }
+  .form-row{ display:grid; grid-template-columns:1fr 1fr; gap:0 20px; }
+  @media(max-width:520px){ .form-row{ grid-template-columns:1fr; } }
+  .form-note{ font-size:12.5px; color:rgba(250,249,244,0.5); margin-top:18px; }
+  #form-success{ display:none; padding:16px 0; font-size:14.5px; color:var(--brass-light); font-weight:600; }
+
+  .contact-info-block{ display:flex; flex-direction:column; gap:28px; }
+  .cinfo-row{ display:flex; gap:18px; align-items:flex-start; padding-bottom:24px; border-bottom:1px solid rgba(250,249,244,0.14); }
+  .cinfo-row svg{ width:22px; height:22px; color:var(--brass-light); flex-shrink:0; margin-top:2px; }
+  .cinfo-row .clabel{ font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(250,249,244,0.55); font-weight:700; margin-bottom:6px; }
+  .cinfo-row .cval{ font-size:15.5px; line-height:1.6; }
+  .cinfo-row .cval a:hover{ color:var(--brass-light); }
+  .quick-actions{ display:flex; gap:14px; margin-top:6px; flex-wrap:wrap; }
+  .map-embed{ margin-top:10px; border:1px solid rgba(250,249,244,0.16); }
+  .map-embed iframe{ width:100%; height:220px; border:0; filter:grayscale(0.3) contrast(1.05); display:block; }
+
+  /* footer */
+  footer.site-footer{ background:#0e1712; color:rgba(250,249,244,0.6); padding:36px 0; }
+  .footer-inner{ display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; font-size:12.5px; }
+  .footer-inner a{ font-weight:700; color:rgba(250,249,244,0.8); }
+
+  ::selection{ background:var(--brass); color:var(--white); }
+
+  @media(prefers-reduced-motion: reduce){
+    *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+  }
+</style>
+</head>
+<body>
+
+<div id="preloader" aria-hidden="true">
+  <div class="seal">PW</div>
+  <div class="bar-track"><div class="bar-fill"></div></div>
+  <div class="plabel">Preparing your valuation portal</div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header id="site-nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo" aria-label="PropertyWise(T) Limited home">
+      <span class="mark">PW</span>
+      <span class="word">PropertyWise<small>REGISTERED VALUERS · TANZANIA</small></span>
+    </a>
+    <nav class="primary-links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta-group">
+      <a href="tel:+255787300003" class="nav-call" aria-label="Call PropertyWise">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="only-desktop">+255 787 300 003</span>
+      </a>
+      <a href="#contact" class="btn btn-brass">Request a Valuation</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-menu" aria-label="Mobile">
+  <a href="#services">Services</a>
+  <a href="#process">Process</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <div class="mm-foot">+255 787 300 003 · Ubungo, Dar es Salaam</div>
+</nav>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1800&q=80" alt="Aerial view of Dar es Salaam city skyline and coastline at dusk" loading="eager">
+    </div>
+    <div class="wrap hero-content">
+      <p class="eyebrow">Registered Valuers &amp; Real Estate Advisors</p>
+      <h1 class="hero-title">
+        <span class="line"><span>Precision you</span></span>
+        <span class="line"><span>can build on.</span></span>
+      </h1>
+      <p class="hero-sub reveal">PropertyWise(T) Limited delivers independent, defensible property valuations and advisory for banks, developers, government institutions and individual property owners across Tanzania — every figure researched, tested and stamped by registered valuers.</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-brass">Request a Valuation</a>
+        <a href="#services" class="btn btn-ghost-light">Explore Our Services</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="hero-stat"><div class="num" data-count="1200" data-suffix="+">0</div><div class="lbl">Properties Valued</div></div>
+        <div class="hero-stat"><div class="num" data-count="480" data-prefix="TZS " data-suffix="Bn+">0</div><div class="lbl">Portfolio Value Assessed</div></div>
+        <div class="hero-stat"><div class="num" data-count="13" data-suffix="+">0</div><div class="lbl">Years Combined Practice</div></div>
+        <div class="hero-stat"><div class="num" data-count="60" data-suffix="+">0</div><div class="lbl">Institutional Clients</div></div>
+      </div>
+    </div>
+    <div class="scroll-cue"><div class="track"><div class="drip"></div></div><span>SCROLL</span></div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <div class="trust-strip">
+    <div class="wrap trust-inner">
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z"/></svg>Registered &amp; Licensed Valuers</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Reports Within Agreed Turnaround</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Bank &amp; Institutional Panel Approved</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>Serving All Regions of Tanzania</div>
+    </div>
+  </div>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">What We Do</p>
+        <h2>Valuation &amp; advisory built for every stage of a property's life.</h2>
+        <p>From a single residential plot to a multi-branch bank portfolio, our reports are structured to withstand scrutiny — by lenders, tribunals, auditors and boards.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 21V7l8-4 8 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01M15 12h.01M12 9h.01"/></svg>
+          <span class="snum">01</span>
+          <h3>Market Valuation</h3>
+          <p>Open-market value assessments to support sale, purchase, joint venture and boardroom decisions on residential, commercial and industrial property.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg>
+          <span class="snum">02</span>
+          <h3>Mortgage &amp; Security Valuation</h3>
+          <p>Bankable valuation reports prepared to the standards of Tanzania's commercial banks and financial institutions, for lending and security assessment.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z"/></svg>
+          <span class="snum">03</span>
+          <h3>Insurance Valuation</h3>
+          <p>Reinstatement and indemnity cost assessments that keep sums insured accurate, so a claim is never undermined by an outdated figure.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 21h16M6 21V10l6-6 6 6v11M10 21v-6h4v6"/></svg>
+          <span class="snum">04</span>
+          <h3>Rating &amp; Taxation Valuation</h3>
+          <p>Valuation rolls and individual assessments prepared for local government authorities and property owners for rating and tax purposes.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M7 15l4-6 4 3 5-9"/></svg>
+          <span class="snum">05</span>
+          <h3>Compensation Valuation</h3>
+          <p>Fair, defensible compensation assessments for land and improvements affected by compulsory acquisition, infrastructure or resettlement projects.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="sic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>
+          <span class="snum">06</span>
+          <h3>Feasibility &amp; Investment Advisory</h3>
+          <p>Highest-and-best-use studies, development appraisals and investment advisory to test a scheme before capital is committed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section id="process" class="process-wrap section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">How An Instruction Runs</p>
+        <h2>A five-step process, the same for a single house or a bank's entire portfolio.</h2>
+        <p>Every report follows the same disciplined sequence, so the figure you receive can be defended in a boardroom, before a tribunal, or under audit.</p>
+      </div>
+      <div class="process-list">
+        <div class="process-row reveal">
+          <div class="pnum">01</div>
+          <h4>Instruction &amp; Scoping</h4>
+          <p class="prow-desc">We confirm the purpose of valuation, the interest to be valued, and the reporting standard required — bank, insurer, tribunal or private client.</p>
+        </div>
+        <div class="process-row reveal">
+          <div class="pnum">02</div>
+          <h4>Site Inspection &amp; Data Collection</h4>
+          <p class="prow-desc">A registered valuer inspects the property, verifies title and boundaries, and records condition, tenancy and construction detail on site.</p>
+        </div>
+        <div class="process-row reveal">
+          <div class="pnum">03</div>
+          <h4>Market Analysis &amp; Valuation</h4>
+          <p class="prow-desc">Comparable evidence, replacement cost and income approaches are tested against current Tanzanian market data to arrive at a supported value.</p>
+        </div>
+        <div class="process-row reveal">
+          <div class="pnum">04</div>
+          <h4>Report Drafting &amp; Quality Review</h4>
+          <p class="prow-desc">Every report passes through independent internal review before release, checking methodology, arithmetic and compliance with instruction terms.</p>
+        </div>
+        <div class="process-row reveal">
+          <div class="pnum">05</div>
+          <h4>Certification &amp; Delivery</h4>
+          <p class="prow-desc">The final report is signed and stamped by a registered valuer and delivered within the agreed turnaround, ready for submission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO / PARALLAX ============ -->
+  <section id="portfolio" class="portfolio-section section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Property Classes We Cover</p>
+        <h2>Every asset type found on a Tanzanian balance sheet.</h2>
+      </div>
+      <div class="portfolio-grid">
+        <div class="pf-card reveal" data-parallax>
+          <div class="pf-media"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80" alt="Modern residential apartment building in an East African city" loading="lazy"></div>
+          <div class="pf-label"><div class="pf-eyebrow">Residential</div><h4>Homes &amp; Apartments</h4></div>
+        </div>
+        <div class="pf-card reveal" data-parallax>
+          <div class="pf-media"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80" alt="Interior of a commercial office space" loading="lazy"></div>
+          <div class="pf-label"><div class="pf-eyebrow">Commercial &amp; Retail</div><h4>Offices &amp; Retail Space</h4></div>
+        </div>
+        <div class="pf-card reveal" data-parallax>
+          <div class="pf-media"><img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&q=80" alt="Industrial warehouse and logistics facility" loading="lazy"></div>
+          <div class="pf-label"><div class="pf-eyebrow">Industrial</div><h4>Warehousing &amp; Plant</h4></div>
+        </div>
+        <div class="pf-card reveal" data-parallax>
+          <div class="pf-media"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=900&q=80" alt="Open agricultural land and estate under a wide sky" loading="lazy"></div>
+          <div class="pf-label"><div class="pf-eyebrow">Land &amp; Estates</div><h4>Agricultural &amp; Vacant Land</h4></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IMPACT / PARALLAX STATS ============ -->
+  <section class="impact section-pad">
+    <div class="impact-bg" data-parallax-bg>
+      <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=1600&q=80" alt="City buildings viewed from above" loading="lazy">
+    </div>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Track Record</p>
+        <h2>Numbers our clients hold us to.</h2>
+        <p>We report on what we can prove — turnaround, coverage and the scale of what we've assessed for the institutions that rely on us.</p>
+      </div>
+      <div class="impact-grid">
+        <div class="impact-stat reveal"><div class="num" data-count="1200" data-suffix="+">0</div><div class="lbl">Properties valued since inception</div></div>
+        <div class="impact-stat reveal"><div class="num" data-count="26" data-suffix="">0</div><div class="lbl">Regions covered across Tanzania</div></div>
+        <div class="impact-stat reveal"><div class="num" data-count="7" data-suffix=" days">0</div><div class="lbl">Average turnaround, standard reports</div></div>
+        <div class="impact-stat reveal"><div class="num" data-count="98" data-suffix="%">0</div><div class="lbl">Reports accepted on first submission</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Client Confidence</p>
+        <h2>Trusted by lenders, developers and land owners alike.</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="quote-mark">&ldquo;</div>
+          <p class="quote">PropertyWise's mortgage valuations consistently meet our credit committee's standard on the first pass. Their turnaround has shortened our loan approval cycle noticeably.</p>
+          <div class="testi-foot"><div class="tname">Credit Manager</div><div class="trole">Regional Commercial Bank, Dar es Salaam</div></div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="quote-mark">&ldquo;</div>
+          <p class="quote">We instructed PropertyWise on a compensation exercise involving over two hundred plots. The report was thorough enough to hold up through community consultation without a single dispute.</p>
+          <div class="testi-foot"><div class="tname">Project Director</div><div class="trole">Infrastructure Development Contractor</div></div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="quote-mark">&ldquo;</div>
+          <p class="quote">As an individual owner, I appreciated how clearly the valuer explained the approach before ever stepping onto the property. No jargon, just a figure I could actually stand behind.</p>
+          <div class="testi-foot"><div class="tname">Property Owner</div><div class="trole">Mikocheni, Dar es Salaam</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Questions, Answered</p>
+        <h2>Before you pick up the phone.</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>Are your valuers registered and licensed in Tanzania?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">Yes. Every report issued by PropertyWise(T) Limited is prepared and signed by a registered valuer, in line with Tanzania's valuation practice regulations. This is what makes our reports acceptable to banks, courts and government bodies.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>How long does a typical valuation take?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">A standard residential or commercial valuation is usually delivered within 5–7 working days of a completed inspection. Larger portfolios, compensation exercises or contested matters are quoted individually once we understand the scope.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>Can you value land held under customary or village tenure?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">Yes. We regularly value land under customary right of occupancy as well as granted right of occupancy, including undocumented rural holdings, using approaches appropriate to the tenure and evidence available.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>Do you work outside Dar es Salaam?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">Our office is based in Ubungo, Dar es Salaam, but our valuers travel nationwide. We have completed instructions across the majority of Tanzania's regions, particularly for bank panel work and government-linked projects.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>What is the difference between market value and mortgage value?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">Market value reflects the likely open-market sale price on the valuation date. Mortgage or security value is typically a more conservative figure, adjusted for lending risk, which is what a bank uses to determine how much it can safely advance against the asset.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><h4>How is your fee structured?</h4><span class="plus"></span></button>
+          <div class="faq-a"><div class="faq-a-inner">Fees are typically quoted as a fixed amount based on property type, location and purpose of valuation, agreed upfront before any inspection is scheduled — no percentage-of-value fees and no surprises on the invoice.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact-section section-pad">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Start An Instruction</p>
+        <h2>Tell us what needs valuing.</h2>
+        <p>Send the details below or reach us directly — a registered valuer will respond, usually within one business day.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contact-form" novalidate class="reveal">
+          <div class="form-row">
+            <div class="field" data-field="name">
+              <label for="f-name">Full name</label>
+              <input type="text" id="f-name" name="name" placeholder="e.g. Amina Mushi" required>
+              <div class="field-error">Please enter your name.</div>
+            </div>
+            <div class="field" data-field="phone">
+              <label for="f-phone">Phone number</label>
+              <input type="tel" id="f-phone" name="phone" placeholder="e.g. 0787 300 003" required>
+              <div class="field-error">Please enter a valid phone number.</div>
+            </div>
+          </div>
+          <div class="field" data-field="email">
+            <label for="f-email">Email address</label>
+            <input type="email" id="f-email" name="email" placeholder="you@company.co.tz" required>
+            <div class="field-error">Please enter a valid email address.</div>
+          </div>
+          <div class="field" data-field="service">
+            <label for="f-service">Service required</label>
+            <select id="f-service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Market Valuation</option>
+              <option>Mortgage &amp; Security Valuation</option>
+              <option>Insurance Valuation</option>
+              <option>Rating &amp; Taxation Valuation</option>
+              <option>Compensation Valuation</option>
+              <option>Feasibility &amp; Investment Advisory</option>
+            </select>
+            <div class="field-error">Please select a service.</div>
+          </div>
+          <div class="field" data-field="message">
+            <label for="f-message">Property details</label>
+            <textarea id="f-message" name="message" placeholder="Location, property type and any deadline we should know about" required></textarea>
+            <div class="field-error">Please tell us a little about the property.</div>
+          </div>
+          <button type="submit" class="btn btn-brass" style="width:100%; margin-top:12px;">Submit Request</button>
+          <div id="form-success">Thank you — your request has been recorded. A registered valuer will contact you shortly.</div>
+          <p class="form-note">By submitting, you agree to be contacted by PropertyWise(T) Limited regarding this request.</p>
+        </form>
+
+        <div class="contact-info-block reveal">
+          <div class="cinfo-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><div class="clabel">Office</div><div class="cval">Ground Floor, RUBADA Building<br>Ubungo, Dar es Salaam, Tanzania</div></div>
+          </div>
+          <div class="cinfo-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><div class="clabel">Phone / WhatsApp</div><div class="cval"><a href="tel:+255787300003">+255 787 300 003</a></div></div>
+          </div>
+          <div class="cinfo-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M9 22v-4h6v4M8 6h8M8 10h8M8 14h4"/></svg>
+            <div><div class="clabel">Tel / Fax</div><div class="cval">Tel: +255 22 246 0824<br>Fax: +255 22 246 0824</div></div>
+          </div>
+          <div class="quick-actions">
+            <a href="tel:+255787300003" class="btn btn-outline" style="color:var(--white); border-color:rgba(250,249,244,0.5);">Call Now</a>
+            <a href="https://wa.me/255787300003?text=Hello%20PropertyWise(T)%20Limited%2C%20I%20would%20like%20to%20request%20a%20property%20valuation." target="_blank" rel="noopener" class="btn btn-brass">WhatsApp Us</a>
+          </div>
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps?q=RUBADA+Building+Ubungo+Dar+es+Salaam+Tanzania&output=embed" title="Map showing PropertyWise(T) Limited office at RUBADA Building, Ubungo, Dar es Salaam" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year"></span> PropertyWise(T) Limited. All rights reserved.</span>
+    <span>Ground Floor, RUBADA Building, Ubungo, Dar es Salaam &nbsp;·&nbsp; <a href="tel:+255787300003">+255 787 300 003</a></span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ============ LENIS SMOOTH SCROLL ============ */
+var lenis;
+if(!reduceMotion && window.Lenis){
+  lenis = new Lenis({ lerp:0.11, smoothWheel:true });
+  function raf(time){ lenis.raf(time); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  lenis.on('scroll', ()=>{ if(window.ScrollTrigger) ScrollTrigger.update(); });
+}
+if(window.gsap && window.ScrollTrigger){ gsap.registerPlugin(ScrollTrigger); }
+if(lenis && window.gsap){
+  gsap.ticker.add((time)=>{ lenis.raf(time*1000); });
+  gsap.ticker.lagSmoothing(0);
+}
+
+/* ============ PRELOADER ============ */
+var tlPre = gsap.timeline();
+tlPre.to('#preloader .seal', { opacity:1, duration:.5, ease:'power2.out' })
+     .to('#preloader .bar-fill', { width:'100%', duration:1.05, ease:'power1.inOut' }, '-=.15')
+     .to('#preloader .seal', { scale:1.08, duration:.25, ease:'power2.out' }, '-=.15')
+     .to('#preloader', { yPercent:-100, duration:.9, ease:'power4.inOut' }, '+=.1')
+     .set('#preloader', { display:'none' })
+     .call(runHeroReveal);
+
+/* ============ HERO REVEAL ============ */
+function runHeroReveal(){
+  var tl = gsap.timeline();
+  tl.to('.hero-title .line span', { y:'0%', duration:1.1, ease:'power4.out', stagger:0.12 })
+    .to('.hero-sub', { opacity:1, y:0, duration:.9, ease:'power3.out' }, '-=.7')
+    .to('.hero-actions', { opacity:1, y:0, duration:.9, ease:'power3.out' }, '-=.6')
+    .to('.hero-stats', { opacity:1, y:0, duration:.9, ease:'power3.out' }, '-=.55')
+    .from('.hero-stat .num', { textContent:0, duration:0, }, '-=.4');
+  document.querySelectorAll('.hero-stat .num').forEach(function(el){ animateCount(el); });
+}
+gsap.set('.hero-sub, .hero-actions, .hero-stats', { opacity:0, y:24 });
+
+/* ============ NAV SCROLL STATE ============ */
+var navEl = document.getElementById('site-nav');
+ScrollTrigger.create({
+  start: 40, end: 99999,
+  onUpdate: function(self){ navEl.classList.toggle('scrolled', self.scroll() > 40); }
+});
+
+/* ============ MOBILE MENU ============ */
+var hamburger = document.getElementById('hamburger');
+var mobileMenu = document.getElementById('mobile-menu');
+hamburger.addEventListener('click', function(){
+  var isOpen = mobileMenu.classList.toggle('open');
+  hamburger.classList.toggle('open', isOpen);
+  hamburger.setAttribute('aria-expanded', isOpen);
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+document.querySelectorAll('#mobile-menu a').forEach(function(a){
+  a.addEventListener('click', function(){
+    mobileMenu.classList.remove('open');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+    document.body.style.overflow = '';
+  });
+});
+
+/* ============ SCROLL REVEALS ============ */
+gsap.utils.toArray('.reveal').forEach(function(el){
+  if(el.closest('.hero-content')) return;
+  gsap.fromTo(el, { opacity:0, y:34 }, {
+    opacity:1, y:0, duration:.9, ease:'power3.out',
+    scrollTrigger:{ trigger:el, start:'top 88%' }
+  });
+});
+
+/* stagger service / testimonial / process children a touch */
+['.services-grid .service-card','.testi-grid .testi-card'].forEach(function(sel){
+  gsap.utils.toArray(sel).forEach(function(el,i){
+    gsap.fromTo(el, { opacity:0, y:30 }, {
+      opacity:1, y:0, duration:.7, ease:'power3.out', delay:(i%3)*0.08,
+      scrollTrigger:{ trigger:el, start:'top 90%' }
+    });
+  });
+});
+
+/* ============ COUNT-UP STATS ============ */
+function animateCount(el){
+  var target = parseFloat(el.getAttribute('data-count'));
+  var prefix = el.getAttribute('data-prefix') || '';
+  var suffix = el.getAttribute('data-suffix') || '';
+  var obj = { val:0 };
+  gsap.to(obj, {
+    val: target, duration:1.8, ease:'power2.out',
+    onUpdate:function(){ el.textContent = prefix + Math.floor(obj.val).toLocaleString() + suffix; }
+  });
+}
+gsap.utils.toArray('.impact-stat .num').forEach(function(el){
+  ScrollTrigger.create({
+    trigger:el, start:'top 85%', once:true,
+    onEnter:function(){ animateCount(el); }
+  });
+});
+
+/* ============ PARALLAX ============ */
+gsap.utils.toArray('[data-parallax]').forEach(function(card){
+  var img = card.querySelector('.pf-media');
+  gsap.fromTo(img, { yPercent:-8 }, {
+    yPercent:8, ease:'none',
+    scrollTrigger:{ trigger:card, start:'top bottom', end:'bottom top', scrub:true }
+  });
+});
+gsap.utils.toArray('[data-parallax-bg]').forEach(function(bg){
+  gsap.fromTo(bg, { yPercent:-12 }, {
+    yPercent:12, ease:'none',
+    scrollTrigger:{ trigger:bg.parentElement, start:'top bottom', end:'bottom top', scrub:true }
+  });
+});
+gsap.to('.hero-media img', {
+  yPercent:14, ease:'none',
+  scrollTrigger:{ trigger:'.hero', start:'top top', end:'bottom top', scrub:true }
+});
+
+/* ============ FAQ ACCORDION ============ */
+document.querySelectorAll('.faq-item').forEach(function(item){
+  var btn = item.querySelector('.faq-q');
+  var panel = item.querySelector('.faq-a');
+  btn.addEventListener('click', function(){
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(o){
+      if(o !== item){ o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = null; o.querySelector('.faq-q').setAttribute('aria-expanded', false); }
+    });
+    item.classList.toggle('open', !isOpen);
+    btn.setAttribute('aria-expanded', !isOpen);
+    panel.style.maxHeight = !isOpen ? panel.scrollHeight + 'px' : null;
+  });
+});
+
+/* ============ CONTACT FORM VALIDATION ============ */
+var form = document.getElementById('contact-form');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  var valid = true;
+  var fields = {
+    name: { el: document.getElementById('f-name'), test: function(v){ return v.trim().length > 1; } },
+    phone: { el: document.getElementById('f-phone'), test: function(v){ return /^[0-9+\s()-]{7,}$/.test(v.trim()); } },
+    email: { el: document.getElementById('f-email'), test: function(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); } },
+    service: { el: document.getElementById('f-service'), test: function(v){ return v.trim().length > 0; } },
+    message: { el: document.getElementById('f-message'), test: function(v){ return v.trim().length > 4; } }
+  };
+  Object.keys(fields).forEach(function(key){
+    var f = fields[key];
+    var wrapper = form.querySelector('[data-field="'+key+'"]');
+    var ok = f.test(f.el.value);
+    wrapper.classList.toggle('invalid', !ok);
+    if(!ok) valid = false;
+  });
+  if(valid){
+    form.querySelectorAll('.field').forEach(function(f){ f.style.display = 'none'; });
+    form.querySelector('button[type="submit"]').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+  }
+});
+
+/* revert preloader gracefully if scripts blocked */
+window.addEventListener('load', function(){
+  setTimeout(function(){
+    var pl = document.getElementById('preloader');
+    if(pl && getComputedStyle(pl).display !== 'none' && !pl.classList.contains('gone')){
+      /* GSAP timeline already handles this in normal conditions */
+    }
+  }, 4000);
+});
+</script>
+
+</body>
+</html>
